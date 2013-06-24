@@ -1,6 +1,5 @@
 -(void) addGradient:(UIButton *) btn color:(CGColorRef)colorRef {
     
-    // Add Border
     [btn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateHighlighted];
     
     CAGradientLayer *btnGradient = [CAGradientLayer layer];
@@ -19,7 +18,7 @@
     glossLayer.locations = [NSArray arrayWithObjects:
                             [NSNumber numberWithFloat:0.0f],
                             [NSNumber numberWithFloat:0.5f],
-                            [NSNumber numberWithFloat:0.5f],          //中间那一条线就是这个画出来的
+                            [NSNumber numberWithFloat:0.5f],          
                             [NSNumber numberWithFloat:0.8f],
                             [NSNumber numberWithFloat:1.0f],
                             nil];
