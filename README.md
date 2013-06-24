@@ -1,0 +1,4 @@
+myCodeSnippet
+=============
+
+some code segment
